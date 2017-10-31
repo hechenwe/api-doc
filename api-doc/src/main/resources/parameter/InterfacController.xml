@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<controller   chineseAnnotation ="接口管理">
+ 
+	<parameter chineseAnnotation ="模块编号" key="moduleId" type="STRING" maxLength="32" example= "1" ></parameter>
+	 
+	
+	<method chineseAnnotation ="获取模块下的接口" url="interfacController/getAllInterfaces" method="POST"  >
+		
+		<parameter ref="moduleId"></parameter>
+		 
+	</method> 
+	
+	
+	 
+	 
+	 
+</controller>
+
+ 
